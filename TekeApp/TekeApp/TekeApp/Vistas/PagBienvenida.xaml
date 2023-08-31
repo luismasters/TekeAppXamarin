@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TekeApp.PagBienvenida" BackgroundColor="rgba(81, 120, 260, 0.45)">
+
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="TEKEAPP" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" />
+            <Button Text="Buscar produccion Por Dia"   />
+            <Button Text="Opción 2"  />
+        </StackLayout>
+    </NavigationPage.TitleView>
+
+
+      
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="DarkSalmon" >
+        
+ 
+         <Image Source="FT.png"
+               WidthRequest="250"  />
+        
+        <Label Text="Hola Inicio TekeApp"/>
+        <Button Text="Registro"  Clicked="Button_ClickedRegistro" />
+        <Button Text="Ver Stock" Clicked="Button_ClickedVerStock" />
+        <Button Text="Salidas"  Clicked="Button_ClickedSalida"/>
+    </StackLayout>
+</ContentPage>

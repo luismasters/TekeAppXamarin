@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TekeApp.PagRegistro">
+    
+    
+    
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+            <Label Text="REGISTROS" Margin="0,30,0,20" HorizontalOptions="Center"/>
+      
+    
+            <Label Text="Bandeja Chicos"/>
+            <Entry x:Name="BandejaChicos" Placeholder="Bandejas " Keyboard="Numeric" />
+         <Button Text="Registrar" Clicked="Button_ClickedBChicos"  Margin="0,0,0,0"/>
+
+        <Label Text="Unidades Chicos"/>
+        
+        <Entry x:Name="UnidadesChicos" Placeholder="Unidades" Keyboard="Numeric" />
+        <Button Text="Registrar" Clicked="Button_ClickedUChicos" Margin="0,0,0,30"/>
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TekeApp.PagSalidaTC">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+        <Label Text="SALIDAS" Margin="0,30,0,20" HorizontalOptions="Center"/>
+
+
+        <Label Text="Salidas de Bandeja Chicos"/>
+        <Entry x:Name="BandejaChicos" Placeholder="Cant Bandejas " Keyboard="Numeric" />
+        <Button Text="Enviar" Clicked="Button_Clicked"  Margin="0,0,0,0"/>
+
+        <Label Text="Salida de Unidades Chicos"/>
+
+        <Entry x:Name="UnidadesChicos" Placeholder="Cant Unidades" Keyboard="Numeric" />
+        <Button Text="Enviar" Clicked="Button_Clicked_1" Margin="0,0,0,30"/>
+
+    </StackLayout>
+</ContentPage>

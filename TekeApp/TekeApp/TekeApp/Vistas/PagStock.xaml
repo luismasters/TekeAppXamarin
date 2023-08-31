@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TekeApp.PagStock">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Start" >
+        <Label Text="Stock Actual de Tamaños Chicos:" Margin="0,50,0,0"  />
+        <Label x:Name="StockLabel" Text="" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+        <Label x:Name="StockLabelB" Text="" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+
+        <Label Text="Stock Actual de Tamaños Grandes:"  Margin="0,50,0,0"/>
+        <Label x:Name="StockLabelG" Text="" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+        <Label x:Name="StockLabelBG" Text="" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+
+
+    </StackLayout>
+</ContentPage>
